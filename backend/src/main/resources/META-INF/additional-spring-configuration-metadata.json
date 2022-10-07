@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "mail.smtp.ssl.trust",
+      "type": "java.lang.String",
+      "description": "Description for mail.smtp.ssl.trust."
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for jwt.secret."
+    }
+  ] }
