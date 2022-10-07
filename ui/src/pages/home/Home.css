@@ -1,0 +1,36 @@
+.petsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+    margin: 0 30px;
+}
+
+.showMoreContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF7F3F;
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .petsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        gap: 35px;
+        margin: 0 30px;
+    }
+
+
+}

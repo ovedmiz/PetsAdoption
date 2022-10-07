@@ -1,0 +1,11 @@
+.aboutUsText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUsText p {
+    font-size: large;
+    color: #EA5C2B;
+    font-weight: bold;
+}

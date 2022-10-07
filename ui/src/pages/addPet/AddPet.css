@@ -1,0 +1,4 @@
+.btnWrapperDetails {
+    display: flex;
+    flex-direction: column;
+}

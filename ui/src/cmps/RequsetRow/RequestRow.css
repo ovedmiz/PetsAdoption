@@ -1,0 +1,65 @@
+.leftSideRR {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.rightSideRR {
+    display: flex;
+    gap: 10px;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 5px;
+    border: 3px solid rgb(255, 94, 0, 0.5);
+}
+
+
+
+
+
+
+.adoptiveDetails {
+    align-self: center;
+    font-size: x-large;
+    padding-left: 0.25em;
+    font-weight: 800;
+
+}
+
+
+.changeReqStatusBtn {
+    padding: 10px 15px;
+    color: #EA5C2B;
+    font-size: x-large;
+    border: 1px solid rgb(255, 94, 0, 0.5);
+    box-shadow: 0 0 5px rgb(252, 168, 114);
+    transition: background-color 0.1s, color 0.1s linear;
+}
+
+.changeReqStatusBtn:hover,
+.changeReqStatusBtn:focus,
+.changeReqStatusBtn:active,
+.open>.dropdown-toggle.changeReqStatusBtn {
+    color: black;
+    border: 1px solid #f9f3e4;
+    background-color: rgb(255, 98, 0);
+    transform: translateY(-2px);
+
+    transition: background-color 0.1s, color 0.1s linear;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .rightSideRR {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+}

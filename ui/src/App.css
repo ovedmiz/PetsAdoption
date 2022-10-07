@@ -1,0 +1,133 @@
+.mainContainer {
+    margin: 0 50px;
+    background-color: #f9f3e4;
+    font-family: 'Handlee', cursive;
+    padding-bottom: 180px;
+    min-height: 1000px;
+    position: relative;
+}
+
+
+
+.appBtn {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 0;
+    width: fit-content;
+    word-spacing: 0;
+    gap: 5px;
+    font-size: 20px;
+    color: #EA5C2B;
+    background-color: #f9f3e4;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 94, 0, 0.5);
+    box-shadow: 0 0 5px rgb(252, 168, 114);
+    transition: background-color 0.1s, color 0.1s linear;
+}
+
+.appBtn:hover,
+.appBtn:focus,
+.appBtn:active,
+.open>.dropdown-toggle.appBtn {
+    color: #f9f3e4;
+    background-color: rgb(252, 168, 114);
+    transform: translateY(-2px);
+    transition: background-color 0.1s, color 0.1s linear;
+}
+
+
+
+.spinningBubbles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    height: 22px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #777;
+    background-color: #f9f3e4;
+
+}
+
+input.error {
+    border-color: red;
+}
+
+.input-feedback {
+    color: rgb(235, 54, 54);
+    margin-top: -15px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: fit-content;
+    padding: 10px 15px;
+    background-color: #EA5C2B;
+    color: white;
+    border: 1px solid #EA5C2B;
+    transition: ease-in-out background-color 250ms, ease-in-out color 250ms;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #f9f3e4;
+    color: #EA5C2B;
+}
+
+
+.btnWrapperDetails {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.pageTitle {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.loginForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .mainContainer {
+        margin: 0;
+        background-color: #f9f3e4;
+        font-family: 'Handlee', cursive;
+        padding-bottom: 180px;
+        min-height: 1000px;
+        position: relative;
+    }
+}

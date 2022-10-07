@@ -1,0 +1,38 @@
+.rowContainer {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid #fabb51cc;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(255, 94, 0, 0.5);
+}
+
+.petCardImgMRR {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(255, 94, 0, 0.5);
+    object-fit: cover;
+}
+
+.leftSideMRR {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightSideMRR {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.reqPetDetails {
+    align-self: flex-start;
+    font-size: x-large;
+    padding-left: 0.25em;
+    font-weight: 800;
+}

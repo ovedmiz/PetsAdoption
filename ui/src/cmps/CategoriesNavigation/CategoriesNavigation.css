@@ -1,0 +1,11 @@
+.categoriesNavigation {
+    background-color: rgb(255, 94, 0, 0.5);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: space-evenly;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}

@@ -1,0 +1,96 @@
+.mainNavigation {
+    margin: 0;
+    background-color: #f9f3e4;
+}
+
+.mainRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+.centerSide,
+.rightSide,
+.leftSide {
+    display: grid;
+    justify-content: center;
+}
+
+.navigationGreet {
+    font-size: xx-large;
+    color: #EA5C2B;
+    text-shadow: 0 0 8px rgb(255, 94, 0, 0.5);
+}
+
+
+.loginBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logoutBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .mainRow {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 15px 0;
+        flex-wrap: wrap;
+    }
+
+    .centerSide {
+        grid-area: 'up2';
+
+        display: grid;
+        justify-content: center;
+    }
+
+    .leftSide {
+        grid-area: 'up1';
+        display: grid;
+        justify-content: center;
+    }
+
+    .rightSide {
+        grid-area: 'down';
+        display: grid;
+    }
+
+    .navigationGreet {
+        font-size: large;
+        color: #EA5C2B;
+        text-shadow: 0 0 8px rgb(255, 94, 0, 0.5);
+    }
+
+
+    .loginBox {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logoutBox {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 10px;
+    }
+
+}

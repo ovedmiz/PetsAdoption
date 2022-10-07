@@ -1,0 +1,71 @@
+.mainContainerMyAcc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.detailsContainerAccount {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: fit-content;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    border: 15px solid rgb(255, 94, 0, 0.5);
+    border-radius: 130px;
+    gap: 200px;
+    padding: 50px;
+}
+
+.btnWrapperDetalis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    gap: 16px;
+}
+
+.detailsWrapperAccount {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+
+.reqContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.detailsContainerAccount p {
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.detailsContainerAccount span {
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+    text-decoration: underline rgb(255, 94, 0, 0.5);
+
+}
+
+
+.requestsContainer {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.mainContainerMyAcc {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
